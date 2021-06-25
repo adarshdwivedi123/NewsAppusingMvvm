@@ -15,6 +15,7 @@ public class ArticleResponse {
     private List<Article> articles;
 
 
+
     public List<Article>getArticles()
     {
         return articles;

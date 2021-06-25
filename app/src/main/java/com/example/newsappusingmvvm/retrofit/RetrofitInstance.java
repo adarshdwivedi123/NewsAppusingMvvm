@@ -5,10 +5,10 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 import static com.example.newsappusingmvvm.constant.AppConstant.BASE_URL;
 
-public class RetrofitRequest {
+public class RetrofitInstance {
 
     private static Retrofit retrofit;
-    public static Retrofit getRetrofitInstance()
+    public static Retrofit getRetrofitClient()
     {
 
         if(retrofit == null)
